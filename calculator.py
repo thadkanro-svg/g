@@ -33,7 +33,5 @@ while True:
             print(f"Result: {multiply(num1, num2)}")
         elif choice == '4':
             print(f"Result: {divide(num1, num2)}")
-        
-        break
-    else:
+            else:
         print("Invalid Input")
