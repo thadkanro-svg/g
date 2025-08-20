@@ -35,6 +35,3 @@ while True:
             print(f"Result: {divide(num1, num2)}")
         
         # break 문을 주석 처리했습니다.
-        # break
-    else:
-        print("Invalid Input")
