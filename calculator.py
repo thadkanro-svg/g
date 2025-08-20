@@ -34,4 +34,5 @@ while True:
         elif choice == '4':
             print(f"Result: {divide(num1, num2)}")
         
-        # break 문을 주석 처리했습니다.
+    else:
+        print("Invalid Input")
