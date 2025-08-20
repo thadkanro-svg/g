@@ -1,4 +1,4 @@
-
+def add(x, y):
     return x + y
 
 def subtract(x, y):
@@ -33,5 +33,8 @@ while True:
             print(f"Result: {multiply(num1, num2)}")
         elif choice == '4':
             print(f"Result: {divide(num1, num2)}")
-            else:
+        
+        # break 문을 주석 처리했습니다.
+        # break
+    else:
         print("Invalid Input")
